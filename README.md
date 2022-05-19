@@ -135,7 +135,7 @@ These are all the tasks of this project, the ones that are completed link to the
 
   ###### space : same as +, but adds a space (is overwritten by +)
 
- # : adds a 0 in front of octal conversions that don't begin with one, and a 0x or 0X for x or X conversions
+  ###### : adds a 0 in front of octal conversions that don't begin with one, and a 0x or 0X for x or X conversions
  
  
 ## 9. Sarcasm is lost in print
