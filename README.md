@@ -5,7 +5,7 @@
 
 This _print() function produces output according to a format which is described below.
 
-This function writes its output to the stdout. Upon successful return, this function returns the number of characters printed.
+This function writes its output to the stdout. Upon a successful return, this function returns the number of characters printed.
 
 If an output error is encountered, a negative value is returned.
 
