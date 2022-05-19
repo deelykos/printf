@@ -12,8 +12,7 @@ If an output error is encountered, a negative value is returned.
 The format specifiers are:
 
  _printf("Length:[%d, %i]\n", len, len);
- 
-    printf("Length:[%d, %i]\n", len2, len2);
+ printf("Length:[%d, %i]\n", len2, len2);
     
     _printf("Negative:[%d]\n", -762534);
     
