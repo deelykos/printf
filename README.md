@@ -144,78 +144,43 @@ These are all the tasks of this project, the ones that are completed link to the
 
   ###### l : converts d, i, u, o, x, X conversions in short signed or unsigned ints
 
-  h : converts d, i, u, o, x, X conversions in long signed or unsigned ints
-10. Print some money and give it to us for the rain forests
-Handle the field width for non-custom conversion specifiers.
-11. The negative is the equivalent of the composer's score, and the print the performance
-Handle the precision for non-custom conversion specifiers.
-12. It's depressing when you're still around and your albums are out of print
-Handle the 0 flag character for non-custom conversion specifiers.
-13. Every time that I wanted to give up, if I saw an interesting textile, print what ever, suddenly I would see a collection]
- Handle the - flag character for non-custom conversion specifiers.
-14. Print is the sharpest and the strongest weapon of our party
-Handle the following custom conversion specifier:
+  ###### h : converts d, i, u, o, x, X conversions in long signed or unsigned ints
+  
+  
+## 10. Print some money and give it to us for the rain forests
 
-r : prints the reversed string
-15. The flood of print has turned reading into a process of gulping rather than savoring
-Handle the following custom conversion specifier:
+   ###### Handle the field width for non-custom conversion specifiers.
+  
+  
+## 11. The negative is the equivalent of the composer's score, and the print the performance
 
-R : prints the rot13'ed string
-16. *
-   All the above options work well together.
-
-## **Description**
-
-This _print() function produces output according to a format which is described below.
-
-This function writes its output to the stdout. Upon a successful return, this function returns the number of characters printed.
-
-If an output error is encountered, a negative value is returned.
-
-The format specifiers are:
+   ###### Handle the precision for non-custom conversion specifiers.
 
 
+## 12. It's depressing when you're still around and your albums are out of print
 
-    _printf("Length:[%d, %i]\n", len, len);
-    
-    printf("Length:[%d, %i]\n", len2, len2);
-    
-    _printf("Negative:[%d]\n", -762534);
-    
-    printf("Negative:[%d]\n", -762534);
-    
-    _printf("Unsigned:[%u]\n", ui);
-    
-    printf("Unsigned:[%u]\n", ui);
-    
-    _printf("Unsigned octal:[%o]\n", ui);
-    
-    printf("Unsigned octal:[%o]\n", ui);
-    
-    _printf("Unsigned hexadecimal:[%x, %X]\n", ui, ui);
-    
-    printf("Unsigned hexadecimal:[%x, %X]\n", ui, ui);
-    
-    _printf("Character:[%c]\n", 'H');
-    
-    printf("Character:[%c]\n", 'H');
-    
-    _printf("String:[%s]\n", "I am a string !");
-    
-    printf("String:[%s]\n", "I am a string !");
-    
-    _printf("Address:[%p]\n", addr);
-    
-    printf("Address:[%p]\n", addr);
-    
-    len = _printf("Percent:[%%]\n");
-    
-    len2 = printf("Percent:[%%]\n");
-    
-    _printf("Len:[%d]\n", len);
-    
-    printf("Len:[%d]\n", len2);
-    
-    _printf("Unknown:[%r]\n");
-    
-    printf("Unknown:[%r]\n");
+   ###### Handle the 0 flag character for non-custom conversion specifiers.
+
+
+## 13. Every time that I wanted to give up, if I saw an interesting textile, print what ever, suddenly I would see a collection]
+
+   ###### Handle the - flag character for non-custom conversion specifiers.
+ 
+ 
+## 14. Print is the sharpest and the strongest weapon of our party
+
+  ###### Handle the following custom conversion specifier:
+
+  ###### r : prints the reversed string
+
+
+## 15. The flood of print has turned reading into a process of gulping rather than savoring
+
+  ###### Handle the following custom conversion specifier:
+
+  ###### R : prints the rot13'ed string
+
+
+## 16. *
+  ###### All the above options work well together.
+
