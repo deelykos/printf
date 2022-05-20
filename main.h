@@ -26,15 +26,15 @@ int print_SRN(va_list l);
 int _puts(char *str);
 
 /**
-  * struct structPrint - Structure definition
+  * struct printStruct - Structure definition
   *
   * @sc: The specifiers
   * @f: The function associated
   */
-typedef struct structPrint
+typedef struct printStruct
 {
 	char *sc;
 	int (*f)(va_list);
-} structPrint;
+} printStruct;
 
 #endif /* _MAIN.H_ */
