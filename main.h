@@ -29,7 +29,7 @@ int _puts(char *str);
   * struct printStruct - Structure definition
   *
   * @sc: The specifiers
-  * @f: The function associated
+  * * @f: The function associated
   */
 typedef struct printStruct
 {
