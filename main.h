@@ -1,5 +1,5 @@
-#ifndef _MAIN.H_
-#define _MAIN.H_
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdlib.h>
 #include <stdarg.h>
@@ -26,15 +26,15 @@ int print_SRN(va_list l);
 int _puts(char *str);
 
 /**
-  * struct code_format - Struct format
+  * struct structprint - Structure definition
   *
   * @sc: The specifiers
   * @f: The function associated
   */
-typedef struct code_format
+typedef struct structprint
 {
 	char *sc;
 	int (*f)(va_list);
-} code_f;
+} structprint;
 
 #endif /* _MAIN.H_ */
